@@ -157,11 +157,13 @@
 }
 .place {
   display: grid;
-  grid-template-columns: repeat(2, calc(484/984*100%));
+  grid-template-columns: repeat(2, fit-content);
   grid-template-rows: fit-content 1fr;
   grid-template-areas:
   "title website"
   "photo text";
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
   margin: auto;
   width: 100%;
   padding-bottom: 80px;
@@ -175,7 +177,7 @@
   line-height: 1.06;
   /* or 106% */
   max-width: 460px;
-  margin: 0 0 48px 0;
+  margin: 0;
 }
 .place__image {
   grid-area: photo;
@@ -184,7 +186,6 @@
 }
 .place__website {
   grid-area: website;
-  margin: 0 0 48px 0;
   align-self: flex-end;
 }
 .place__url-heading {
