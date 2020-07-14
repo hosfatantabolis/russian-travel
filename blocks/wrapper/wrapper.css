@@ -1,0 +1,8 @@
+.wrapper{
+  /*Обертка для задания фона всей странице,
+  в т.ч. за пределами разрешения*/
+  background-color: #2A2C2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
