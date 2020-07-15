@@ -1,0 +1,12 @@
+@import url(./__column/footer__column.css);
+@import url(./__column-links/footer__column-links.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+.footer {
+  display: flex;
+  margin: auto;
+  width: calc(1184/1280*100%);
+  justify-content: space-between;
+  object-position: center;
+  padding: 96px 0 24px 0
+}
