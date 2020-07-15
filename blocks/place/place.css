@@ -21,3 +21,10 @@
 .place:last-of-type{
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px){
+  .place {
+    grid-column-gap: 32px;
+    grid-row-gap: 42px;
+  }
+}
