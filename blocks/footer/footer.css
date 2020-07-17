@@ -8,5 +8,30 @@
   width: calc(1184/1280*100%);
   justify-content: space-between;
   object-position: center;
-  padding: 96px 0 24px 0
+  padding: 89px 0 24px 0;
 }
+
+
+@media screen and (max-width: 1024px){
+  .footer {
+    width: calc(928/1024*100%);
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .footer {
+    display: block;
+    padding-top: 35px;
+    width: calc(720/768*100%);
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer{
+    display: block;
+    max-width: 288px;
+    padding-top: 35px;
+  }
+}
+

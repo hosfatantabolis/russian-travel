@@ -45,6 +45,7 @@
 @media screen and (max-width: 320px){
   .place {
     display: block;
+    width: 320px;
     padding-bottom: 54px;
   }
 }

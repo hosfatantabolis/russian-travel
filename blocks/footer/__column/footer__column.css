@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px){
+  .footer__column{
+    margin-bottom: 46px;
+  }
+  .footer__column:last-child{
+    margin-bottom: 0;
+  }
+}

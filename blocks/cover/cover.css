@@ -4,17 +4,21 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__background/cover__background.css);
 .cover {
-  min-height: 740px;
   max-width: 1184px;
-  justify-content: center;
-  align-items: center;
   margin: auto;
+  position: relative;
+  text-align: center;
   margin-top: 92px;
 }
 
-@media screen and (max-width: 1024px){
+ @media screen and (max-width: 768px){
   .cover {
-    width: 100%;
-    min-height: 640px;
+    margin-top: 105px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .cover {
+    margin-top: 92px;
   }
 }

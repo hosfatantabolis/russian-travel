@@ -1,6 +1,16 @@
 .cover__text{
   margin: auto;
-  /* position: absolute;
-  z-index: 3; */
+  position: absolute;
+  z-index: 3;
   color: white;
+  top: calc(50% - 244px/2);
+  left: calc(50% - 560px/2);
+}
+
+@media screen and (max-width: 768px){
+  .cover__text {
+    max-width: 288px;
+    top: calc(50% - 128px/2);
+    left: calc(50% - 292px/2);
+  }
 }
