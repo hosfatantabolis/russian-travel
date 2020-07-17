@@ -7,8 +7,7 @@
 @import url(./__paragraph/place__paragraph.css);
 .place {
   display: grid;
-  grid-template-columns: repeat(2, fit-content);
-  grid-template-rows: fit-content 1fr;
+  grid-template-columns: minmax(400px, 460px) minmax(400px, 484px);
   grid-template-areas:
   "title website"
   "photo text";
@@ -22,9 +21,31 @@
   padding-bottom: 0;
 }
 
+
 @media screen and (max-width: 1024px){
   .place {
+    grid-template-columns: repeat(2, minmax(340px, 440px));
     grid-column-gap: 32px;
-    grid-row-gap: 42px;
+    grid-row-gap: 39px;
   }
 }
+@media screen and (max-width: 768px){
+  .place {
+    grid-template-columns: minmax(280px, 340px) minmax(280px, 370px);
+    grid-column-gap: 28px;
+    grid-row-gap: 39px;
+  }
+}
+@media screen and (max-width: 600px){
+  .place {
+    display: block;
+    padding-bottom: 54px;
+  }
+}
+@media screen and (max-width: 320px){
+  .place {
+    display: block;
+    padding-bottom: 54px;
+  }
+}
+

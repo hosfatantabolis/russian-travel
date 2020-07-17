@@ -4,13 +4,17 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__background/cover__background.css);
 .cover {
-  display: flex;
-  flex-flow: column;
-  position: relative;
   min-height: 740px;
   max-width: 1184px;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-top: 92px;
+}
+
+@media screen and (max-width: 1024px){
+  .cover {
+    width: 100%;
+    min-height: 640px;
+  }
 }
