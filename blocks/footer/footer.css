@@ -21,15 +21,18 @@
 
 @media screen and (max-width: 768px){
   .footer {
-    display: block;
-    padding-top: 35px;
     width: calc(720/768*100%);
+  }
+}
+
+@media screen and (max-width: 700px){
+  .footer {
+    display: block;
   }
 }
 
 @media screen and (max-width: 320px){
   .footer{
-    display: block;
     max-width: 288px;
     padding-top: 35px;
   }

@@ -3,15 +3,16 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__background/cover__background.css);
+@import url(./__image/cover__image.css);
 .cover {
   max-width: 1184px;
   margin: auto;
-  position: relative;
+  /* position: relative; */
   text-align: center;
-  margin-top: 92px;
+  margin-top: 97px;
+  position: relative;
 }
-
- @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
   .cover {
     margin-top: 105px;
   }
