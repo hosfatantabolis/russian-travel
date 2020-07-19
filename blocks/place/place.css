@@ -33,7 +33,6 @@
   .place {
     grid-template-columns: minmax(280px, 340px) minmax(280px, 370px);
     grid-column-gap: 28px;
-    grid-row-gap: 39px;
   }
 }
 @media screen and (max-width: 600px){
@@ -44,9 +43,7 @@
 }
 @media screen and (max-width: 320px){
   .place {
-    display: block;
     width: 320px;
-    padding-bottom: 54px;
   }
 }
 
