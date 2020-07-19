@@ -4,7 +4,9 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-gap: 16px;
-  margin: auto;
+  margin: auto; /*Это единственное упоминание margin: auto на странице.
+  Опять же, я не понимаю, в чем моя ошибка. В медиазапросах данное свойство отсутствует,
+  а так же его не было на предыдущей попытке.*/
   padding-top: 92px;
 }
 
@@ -25,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
   .photo-grid {
     width: 90%;
     grid-template-columns: minmax(250px, 1fr);

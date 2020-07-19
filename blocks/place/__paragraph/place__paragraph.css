@@ -1,7 +1,7 @@
 .place__paragraph {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 18px; /*тут 18, как по макету*/
   line-height: 1.67;
   margin: 0 0 24px 0;
 }
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 768px){
   .place__paragraph {
-    font-size: 16px;
+    font-size: 16px; /*Тут 16, как по макету. Вроде всё правильно. В Фигме меняется размер на 768px. Не понимаю, почему это дубляж.*/
     line-height: 1.62;
   }
 }
